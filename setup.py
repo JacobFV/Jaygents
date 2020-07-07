@@ -12,9 +12,10 @@ setup(
     description = ("Some personal reinforcement learning agent implimentations"),
     license = "MIT",
     keywords = "reinforcement learning",
-    url = "http://packages.python.org/jaygents",
+    url = "https://github.com/JacobFV/jaygents",
     packages=['jaygents'],
     long_description=read('README'),
+    install_requires=['tensorflow', 'dm-sonnet'],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
