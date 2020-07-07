@@ -14,7 +14,7 @@ setup(
     keywords = "reinforcement learning",
     url = "https://github.com/JacobFV/jaygents",
     packages=['jaygents'],
-    long_description=read('README'),
+    long_description=read('README.md'),
     install_requires=['tensorflow', 'dm-sonnet'],
     classifiers=[
         "Development Status :: 3 - Alpha",
